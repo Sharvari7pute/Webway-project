@@ -1,0 +1,150 @@
+/* General Styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #e0e6ed;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2072d2;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #232b35;
+    font-weight: 500;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+  color: #333;
+}
+
+.dashboard {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* User Info */
+.user-info {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.user-info h2 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+/* Modules */
+.modules {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.module-section {
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.module-section h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #34495e;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 10px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  background: #eaf2f8;
+  font-size: 15px;
+}
+
+li.completed {
+  background: #d4efdf;
+  color: #2d862d;
+}
+
+li.pending {
+  background: #f9e79f;
+  color: #9a7d0a;
+}
+
+footer {
+    background: #f6f8fb;
+    border-top: 1px solid #e0e6ed;
+    margin-top: 3rem;
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 0.95rem;
+}
+
+.footer-main {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+footer h4 {
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0.25rem 0;
+}
+
+footer a {
+    color: #2072d2;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.social span {
+    font-size: 1.7rem;
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 900px) {
+    .modules-list, .footer-main {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .training-card {
+        width: 100%;
+    }
+}

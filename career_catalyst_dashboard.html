@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="career_catalyst_dashboard_css.css">
+</head>
+<body>
+<header>
+        <div class="logo">Career Catalyst</div>
+        <nav>
+          <a href="career_catalyst.html">Home</a>
+          <a href="career_catalyst_dashboard.html">Dashboard</a>
+          <a href="career_catalyst_training.html">Training</a>
+          <a href="career_catalyst_alumni.html">Alumni</a>
+          <a href="career_catalyst_placements.html">Placements</a>
+          <a href="career_catalyst_higher_studies.html">Higher Studies</a>
+          <a href="career_catalyst_mock_interviews.html">Mock Interviews</a>
+        </nav>
+    </header>
+  <div class="dashboard">
+    
+    <!-- User Info -->
+    <section class="user-info">
+      <h2>Welcome, <span id="userName">Sharvari</span> 👋</h2>
+      <p>Email: <span id="userEmail">sharvari@example.com</span></p>
+      <p>Course: <span id="userCourse">B.Tech in Computer Engineering</span></p>
+    </section>
+
+    <!-- Modules -->
+    <section class="modules">
+      <div class="module-section">
+        <h3>✅ Completed Modules</h3>
+        <ul id="completedModules"></ul>
+      </div>
+      
+      <div class="module-section">
+        <h3>⌛ Pending Modules</h3>
+        <ul id="pendingModules"></ul>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+  <footer>
+        <div class="footer-main">
+            <div>
+                <h3>Career Catalyst</h3>
+                <p>
+                    Empowering students through comprehensive career development, alumni connections, and structured pathways for professional growth.
+                </p>
+                <p>&copy; 2025 College Career Hub. All rights reserved.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Training Modules</a></li>
+                    <li><a href="#">Alumni Directory</a></li>
+                    <li><a href="#">Placements</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Higher Studies</a></li>
+                    <li><a href="#">Mock Interviews</a></li>
+                    <li><a href="#">LinkedIn Integration</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <span>🐦</span>
+                <span>📘</span>
+                <span>📸</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

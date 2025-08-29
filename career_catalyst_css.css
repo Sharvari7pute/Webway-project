@@ -1,0 +1,272 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f6f8fb;
+    color: #232b35;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #e0e6ed;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2072d2;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #232b35;
+    font-weight: 500;
+}
+
+.welcome-section {
+    background: linear-gradient(135deg, #3898ec 0%, #5fa8f7 100%);
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem 3rem 2rem;
+}
+
+.welcome-section h1 {
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+    font-weight: 700;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-buttons button {
+    background-color: #2072d2;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.75rem 2rem;
+    margin-right: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.cta-buttons .secondary {
+    background: transparent;
+    color: #2072d2;
+    border: 2px solid #2072d2;
+}
+
+main {
+    padding: 2rem 2rem 0 2rem;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.section-header h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.section-header a {
+    color: #3898ec;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.modules-grid {
+    display: flex;
+    gap: 2rem;
+}
+
+.module-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(50,60,100,0.04);
+    padding: 1.5rem;
+    width: 240px;
+}
+
+.module-card .icon {
+    font-size: 2.5rem;
+    color: #2072d2;
+    margin-bottom: 1rem;
+}
+
+.module-card h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.progress-bar {
+    background: #ececec;
+    border-radius: 8px;
+    width: 70px;
+    height: 7px;
+    overflow: hidden;
+    margin: 0 0.5rem;
+}
+
+.progress {
+    background: #44d58c;
+    height: 100%;
+}
+
+.alumni-section, .mock-interview-section {
+    margin-top: 2rem;
+}
+
+.alumni-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(50,60,100,0.04);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    width: 340px;
+}
+
+.alumni-photo {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.alumni-info h3 {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.alumni-info .designation, .alumni-info .company, .alumni-info .salary {
+    margin: 0.2rem 0;
+    font-size: 0.95rem;
+}
+
+.alumni-actions {
+    margin-top: 0.7rem;
+}
+
+.linkedin, .connect-btn {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background: #2072d2;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    margin-right: 0.7rem;
+    cursor: pointer;
+}
+
+.connect-btn {
+    display: inline-block;
+}
+
+.mock-interview-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(50,60,100,0.04);
+    padding: 1.5rem;
+    width: 340px;
+}
+
+.mock-interview-card .tags {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.mock-interview-card h3 {
+    margin: 0.3rem 0 1rem 0;
+    font-size: 1.07rem;
+    font-weight: 600;
+}
+
+.schedule-btn {
+    background: #2072d2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background: #f6f8fb;
+    border-top: 1px solid #e0e6ed;
+    margin-top: 3rem;
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 0.95rem;
+}
+
+.footer-main {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+footer h4 {
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: 650;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0.25rem 0;
+}
+
+footer a {
+    color: #2072d2;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.social span {
+    font-size: 1.7rem;
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 900px) {
+    .modules-grid, .footer-main {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .alumni-card, .mock-interview-card {
+        width: 100%;
+    }
+}
