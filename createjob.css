@@ -1,0 +1,6 @@
+body { font-family: Arial; background:#f6f8fb; display:flex; justify-content:center; align-items:center; height:100vh; }
+.container { background:#fff; padding:2rem; border-radius:10px; width:400px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+form { display:flex; flex-direction:column; gap:0.7rem; }
+input, textarea, button { padding:0.7rem; border-radius:6px; border:1px solid #ccc; }
+button { background:#2072d2; color:#fff; cursor:pointer; border:none; }
+button:hover { background:#1658a2; }
